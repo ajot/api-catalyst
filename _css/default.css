@@ -1,0 +1,65 @@
+/*Standard CSS*/ 
+
+body{
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+
+
+.tl{
+	-moz-border-radius-topleft:5px;	
+	-webkit-border-top-left-radius: 5px;
+}
+
+.tr{
+	-moz-border-radius-topright:5px;	
+	-webkit-border-top-right-radius: 5px;
+}
+
+.bl{
+	-moz-border-radius-bottomleft:5px;	
+	-webkit-border-bottom-left-radius: 5px;
+}
+
+.br{
+	-moz-border-radius-bottomright:5px;	
+	-webkit-border-bottom-right-radius: 5px;
+}
+
+.center{
+	text-align: center;
+}
+
+.middle{
+	vertical-align: middle;
+}
+.bold{
+	font-weight: bold;
+}
+
+a:active
+{
+  outline: none;
+}
+
+a:focus
+{
+  -moz-outline-style: none;
+}
+
+.gradient
+{
+	padding: 10px;
+	border: solid 1px #E8E8E8;
+	background: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#E8E8E8));	
+	-moz-border-radius-topleft:5px;	
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright:5px;	
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-bottomleft:5px;	
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright:5px;	
+	-webkit-border-bottom-right-radius: 5px;
+}

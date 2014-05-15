@@ -1,0 +1,87 @@
+/*Custom CSS for this website begins here*/
+
+body{
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#results h3{
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+#results .thumbnail{
+	text-align: center;
+}
+
+.box{
+	height: 150px;
+	
+}
+
+h2.temperature{
+	color: #c0c0c0;
+	font-size: 5em;
+	margin: 0;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+
+h2.location{
+	font-size: 1.2em;
+	color: #929292;
+	margin: 0;
+}
+
+#message h1{
+	font-size: 1.8em;
+	margin-top: 20px;
+}
+
+header{
+	border-bottom: 1px solid #c0c0c0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+#results-container{
+	margin-top: 20px;
+}
+
+#summary{
+	padding-top: 20px;
+}
+
+#title{
+	margin-bottom: 20px;
+}
+#title h1{
+	font-size: 1.5em;
+	color: #424242;
+}
+
+.sunny{
+	color: #0097f7;
+}
+
+.killing{
+	color: #ff9232;
+}
+
+#description{
+	margin-bottom: 20px;
+}
+#description p{
+	font-size: 1.2em;
+	color: #5e5e5e;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 2em;
+}
+
+#results .thumbnail img{
+	width:61px;
+	height:91px;
+}
