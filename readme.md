@@ -4,7 +4,7 @@
 	a substance that increases the rate of a chemical reaction without itself undergoing any permanent chemical change.
 </pre>
 
-API Catalyst is a collection of short, simple API code snippets intended to help you get started using RESTful APIs like  [Rotten Tomatoes](http://developer.rottentomatoes.com), [Crunchbase](http://developer.crunchbase.com), [CocaCola Enterprises](http://developer.cokecce.com), [USA TODAY](http://developer.usatoday.com), [The Guardian](http://www.theguardian.com/open-platform), and [World Weather Online](http://developer.worldweatheronline.com).
+API Catalyst is a collection of short, simple API code snippets intended to help you get started using RESTful APIs like  [Rotten Tomatoes](http://developer.rottentomatoes.com), [CocaCola Enterprises](http://developer.cokecce.com), [USA TODAY](http://developer.usatoday.com), [The Guardian](http://www.theguardian.com/open-platform), and [World Weather Online](http://developer.worldweatheronline.com).
 
 I've always found code snippets to be one of the best ways to get started with an API/SDK. Often times all you wanna know is how to make an API call and get some meaningful results. Much like a catalyst, code snippets make the process of learning and playing around with APIs a lot faster, easier and fun. 
 
@@ -16,7 +16,6 @@ API Catalyst code snippets are currently available for Ruby and Javascript.
 	<pre>git clone git://github.com/ajotwani/catalyst.git</pre>
 2. Get the respective API Keys.
  - [Rotten Tomatoes](http://developer.rottentomatoes.com)
- - [Crunchbase](http://developer.crunchbase.com)
  - [CocaCola Enterprises](http://developer.cokecce.com) 
  - [USA TODAY](http://developer.usatoday.com)
  - [The Guardian](http://www.theguardian.com/open-platform)
