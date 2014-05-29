@@ -1,6 +1,6 @@
 #*******************************************************************************************
-# This code snippet returns Opening Movies using Rotten Tomatoes Opening Movies API
-# You will need to get an API key from Crunchbase http://developer.rottentomatoes.com
+# This code snippet returns Opening Movies using Beats Music API
+# You will need to get an API key from Crunchbase http://developer.beatsmusic.com
 # Once you have the API key, enter that in the api_config.eb file
 #*******************************************************************************************
 
@@ -8,7 +8,7 @@ require 'json'
 require 'open-uri'
 require_relative 'api_config'
 
-url = "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/opening.json?limit=16&country=us&apikey=#{ROTTEN_TOMATOES_API_KEY}"
+url = "https://partner.api.beatsmusic.com/v1/api/albums/al19843113?client_id=#{BEATS_MUSIC_API_KEY}"
 puts url
 
 begin
@@ -21,14 +21,14 @@ rescue OpenURI::HTTPError => e #Handling HTTP errors gracefully
  end
   exit
 end
+  
+#Grabbing the Tracks returned into an array
+tracks = data["data"]["refs"]["tracks"]
 
-#Grabbing the movies returned into an array
-movies = data["movies"]
-
-#iterating through the movies returned and printing the Movie Title
+#iterating through the tracks returned and printing the Track Title aka Display Name
 puts "*=" * 20
-puts "Showing This Week's Opening Movies"
+puts "Showing the tracks from the ALbum"
 puts "*=" * 20
-movies.each_with_index do |movie,index|
-  puts "#{index+1}. #{movie["title"].to_s}"
+tracks.each_with_index do |track,index|
+  puts "#{index+1}. #{track["display"].to_s}"
 end
