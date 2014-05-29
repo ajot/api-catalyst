@@ -1,6 +1,6 @@
-# Ruby Code snippet for Rotten Tomatoes API
+# Ruby Code snippet for Beats Music API
 
-This code snippet is a quick example of how to use the Rotten Tomatoes API to return all tracks from an Album, given it's album ID, using Beats Music's Album Lookup API. You will need to get an API key from [Beats Music](http://developer.beatsmusic.com). Once you have the API key, enter that in the api_config.eb file
+This code snippet is a quick example of how to use the Beats Music API to return all tracks from an Album, given it's album ID, using Beats Music's Album Lookup API. You will need to get an API key from [Beats Music](http://developer.beatsmusic.com). Once you have the API key, enter that in the api_config.eb file
 
 ## Usage
 
