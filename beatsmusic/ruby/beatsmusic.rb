@@ -1,6 +1,6 @@
 #*******************************************************************************************
-# This code snippet returns Opening Movies using Beats Music API
-# You will need to get an API key from Crunchbase http://developer.beatsmusic.com
+# This code snippet returns the tracks in an album using the Beats Music API
+# You will need to get an API key from Beats Music http://developer.beatsmusic.com
 # Once you have the API key, enter that in the api_config.eb file
 #*******************************************************************************************
 
